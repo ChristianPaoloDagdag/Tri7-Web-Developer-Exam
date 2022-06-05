@@ -1,0 +1,1 @@
+Right click the file an open with your preferred browser.

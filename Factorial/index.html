@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial</title>
+  </head>
+  <body>
+    Input:
+    <input id="number" type="number" />
+    Result:
+    <input id="output" type="number" readonly />
+  </body>
+  <script>
+    document.getElementById("number").addEventListener("keydown", function (e) {
+      if (e.key == "Enter") {
+        factorial(e.target.value);
+      }
+    });
+
+    function factorial(inputValue) {
+      var outputValue = inputValue;
+      for (i = 1; i <= inputValue - 1; i++) {
+        outputValue *= i;
+      }
+      document.getElementById("output").value = outputValue;
+    }
+  </script>
+</html>
