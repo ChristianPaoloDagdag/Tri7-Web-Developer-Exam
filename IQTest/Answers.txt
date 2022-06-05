@@ -1,0 +1,54 @@
+QUESTION 1.
+    ANSWER: 2
+    EXPLANATION:
+        All of the lines in the corners are pointing towards and from the center, if you were to place answer number 2 to the bottom right corner,
+        it will be pointing towards and from the center.
+
+QUESTION 2.
+    ANSWER: 2
+    EXPLANATION:
+        The shapes are increasing in size from left to right. For the first row, the triangle started very small and ended being large,
+        the second row has a circle that started out very small, to a medium size, to being large. For the last row the square started very small,
+        then turned into a medium sized square, I then assume it to end as a large square.
+
+QUESTION 3.
+    ANSWER: 3
+    EXPLANATION:
+        In the first row, the first column has a triangle that is pointing upwards and is in the center, for the second column of the first row, there
+        is a triangle that is pointing downwards and is in the center, for the last column of the fist row, the two triangles overlaps and creates a
+        figure where the two triangles seem to overlap.
+        
+        For the second row, the first column there is a circle that is justified to the left, the second column has
+        another circle that is justified to the right, and for the last column of the second row, the circles are again overlaps and creates a new figure
+
+        For the last row, the last column depicts two merged squares that are justified to the left and right. It is very similar to the second column,
+        but replaced with squares, I then concluded that the first column of the last row must contain a square that is justified to the left like the 
+        second row's first column.
+
+QUESTION 4.
+    ANSWER: 4
+    EXPLANATION:
+        I have observed that the first and last column has a pattern for the figures:
+            The circles and squares are alternately shaded per row (shaded - hollow - shaded or hollow - shaded - hollow)
+            The lines are in the same position for each column.
+                The first column has the line justified in the center and placed on the bottom of the box
+                The last column has the line justified in the center and placed on the top of the box
+            The squares are close to the center and the circles are in the opposite side of where the squares are justified for their column.
+
+        Answer number 4 has the alternating alternating shading for the squares and circles and has the line justified in the center and placed
+        on the top of the box. What differentiates answer number 3 from answer number 4 is the justified of the square and circle. If it were
+        placed on the cube it would have the square close to the center and the circle away from it.
+
+QUESTION 5.
+    ANSWER: 3
+    EXPLANATION:
+        The circle reaches the top of the box (aligned top) starting from the bottom (justified right) if read from left to right.
+        The square is shown to stay where it is aligned (bottom, center, top) and justifies itself depending on the column number:
+            Column 1: justified left
+            Column 2: justified center
+            Column 3: justified right
+        
+        For row number 3 started of aligned to the top, justified to the left, therefor it must end (column 3) justified to the right, aligned to the top
+        which narrows down my choices to 1, 3, and 4 but choice number 3 is the only choice that has the circle aligned to the top.
+
+
