@@ -12,6 +12,7 @@
     Result:
     <input id="output" type="number" readonly />
   </body>
+
   <script>
     document.getElementById("number").addEventListener("keydown", function (e) {
       if (e.key == "Enter") {
@@ -20,11 +21,17 @@
     });
 
     function factorial(inputValue) {
-      var outputValue = inputValue;
-      for (i = 1; i <= inputValue - 1; i++) {
-        outputValue *= i;
+      recursion(1, inputValue);
+    }
+
+    function recursion(counter, inputValue) {
+      let outputValue = inputValue;
+      if (counter <= inputValue - 1) {
+        outputValue *= counter;
+        counter++;
+        document.getElementById("output").value = outputValue;
+        recursion(counter, inputValue);
       }
-      document.getElementById("output").value = outputValue;
     }
   </script>
 </html>
